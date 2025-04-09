@@ -1,0 +1,4 @@
+Llibre,15.99
+Boligraf,0.50
+Llapis,0.25
+Agenda,5.75
