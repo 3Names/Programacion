@@ -1,0 +1,5 @@
+101,1,Llibre:2,Boligraf:5
+102,2,Agenda:1,Llapis:10
+103,1,Llibre:1
+104,3,Boligraf:20
+105,2,Llibre:1,Agenda:2
