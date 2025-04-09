@@ -15,5 +15,5 @@ def contar(frase:str) -> int:
         contador = contador + 1
     return palabra
 
-num_palabras = contar("xd xd")
+num_palabras = contar(" ")
 print("Numero de palabras: " + str(num_palabras))

@@ -10,5 +10,5 @@ def conversor(binario:int) -> int:
         binario = binario // 10
         i = i + 1
     return resultado
-numero = conversor(101)
+numero = conversor(10110011010)
 print("Decimal: " + str(numero))
