@@ -30,7 +30,7 @@ class Comanda:
         self.productes = productes
         self.quantitats = quantitats
     
-    def calcular_total():
+    def calcular_total(self):
         precio:int = 0 
         for producte in productes:
             precio = precio + (producte.preu * quantitats[i])
@@ -45,29 +45,31 @@ def processar_comandes():
     try:
         with open("productes.txt") as xd:
             for line in xd.readlines():
-                print(line)
+                str_producte = line.split(",")
+                print(str_producte)
     except Exception as e:
         print(e)
 
-    try:
-        with open("clients.txt","r") as fd:
-            for line in fd.readlines():
-                print(line)
-    except Exception as e:
-        print("Problema leyendo los clientes")
-    
-    try:
-        with open("commandes.txt") as dx:
-            for line in dx.readlines():
-                print(line)
-    except Exception as e:
-        print(e)
-    try:
-        with open("productes.txt") as xd:
-            for k , v in xd.readlines()[1].split(",")[0]:
-                processed_products[k] = v
-                print(processed_products)
-            print(xd.readlines()[2].split(",")[0])
-            print(range(len(xd.readlines())-1))
-    except Exception as xd:
-        print(xd)
+    #try:
+    #    with open("clients.txt","r") as fd:
+    #        for line in fd.readlines():
+    #            print(line)
+    #except Exception as e:
+    #    print("Problema leyendo los clientes")
+    #
+    #try:
+    #    with open("commandes.txt") as dx:
+    #        for line in dx.readlines():
+    #            print(line)
+    #except Exception as e:
+    #    print(e)
+    #try:
+    #    with open("productes.txt") as xd:
+    #        for k , v in xd.readlines()[1].split(",")[0]:
+    #            processed_products[k] = v
+    #            print(processed_products)
+    #        print(xd.readlines()[2].split(",")[0])
+    #        print(range(len(xd.readlines())-1))
+    #except Exception as xd:
+    #    print(xd)
+processar_comandes()
