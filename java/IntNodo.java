@@ -1,0 +1,33 @@
+public class IntNodo {
+        private int valor;
+        private IntNodo izquierda;
+        private IntNodo derecha;
+
+        public IntNodo(int valor) {
+                this.valor = valor;
+        }
+
+        public int getValor() {
+                return this.valor;
+        }
+
+        public Nodo getIzquierda() {
+                return this.izquierda;
+        }
+
+        public Nodo getDerecha() {
+                return this.derecha;
+        }
+
+        public void setIzquierda(Nodo nodo) {
+                this.izquierda = nodo;
+        }
+
+        public void setDerecha(Nodo nodo) {
+                this.derecha = nodo;
+        }
+
+        public void setValue(int value) {
+                this.value = value;
+        }
+}
