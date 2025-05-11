@@ -1,5 +1,8 @@
 public class Stack {
 
+	private int stackArray;
+	private int top;
+
 	public Stack(int size) {
 		this.stackArray = new int[maxSize];
 		this.top = -1;

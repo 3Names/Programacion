@@ -16,7 +16,7 @@ public class SimpleWindow extends Frame implements ActionListener{
 		nameField = new TextField(20);
 		Button greetButton = new Button("Greet");
 		resultLabel = new Label("");
-		Checkboc checkboc = new Checkbox("Check me")
+		Checkbox checkbox = new Checkbox("Check me");
 		Choice choice = new Choice();
 		choice.add("1");
 		choice.add("2");
@@ -27,6 +27,8 @@ public class SimpleWindow extends Frame implements ActionListener{
 		add(nameField);
 		add(greetButton);
 		add(resultLabel);
+		add(checkbox);
+		add(textarea);
 
 		greetButton.addActionListener(this);
 		

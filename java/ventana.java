@@ -5,7 +5,6 @@ public class ventana extends JFrame {
 	private JButton boton;
 	private JLabel etiqueta;
 	private JTextField campo;
-	private JLabel contador;
 
 	public ventana() {
 		super("");
