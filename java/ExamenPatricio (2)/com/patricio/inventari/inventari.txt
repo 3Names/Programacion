@@ -1,0 +1,11 @@
+Ordinador Portatil,1200.50,15
+Teclat Mecanic,85.00,8
+Ratoli Sense Fils,25.99,25
+Monitor 27 Polzades,250.75,12
+Webcam HD,40.00,5
+Disc Dur Extern 1TB,65.50,30
+Memoria USB 64GB,15,50
+Cable HDMI,10.99,7
+Impressora Multifuncio,150.00
+Linia amb error de quantitat,99.99,abc
+Altaveus Bluetooth,55.00,18
